@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Coaching décisionnel et coaching de vie pour perfectionnistes">
+    <title>Coaching Décisionnel et de Vie</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            margin: 20px;
+            text-align: center;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #4CAF50;
+            font-weight: bold;
+        }
+        section {
+            margin: 20px;
+            padding: 20px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 {
+            color: #4CAF50;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+        label {
+            margin: 10px 0 5px;
+        }
+        input, textarea {
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        input[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Coaching Décisionnel & Coaching de Vie</h1>
+    <p>Accompagnement pour les perfectionnistes en quête de clarté et de confiance</p>
+</header>
+
+<nav>
+    <a href="#presentation">Présentation</a>
+    <a href="#tarifs">Tarifs & Modalités</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="presentation">
+    <h2>Présentation</h2>
+    <p>
+        Bienvenue dans un espace où chaque décision est prise en toute confiance. Mon approche de coaching décisionnel 
+        et de vie est spécialement conçue pour les personnes qui prêtent attention aux détails et recherchent la perfection.
+    </p>
+    <p>
+        Que vous traversiez une période de doute ou que vous ayez besoin d’un accompagnement pour faire face à des décisions 
+        importantes, je vous aide à trouver des solutions qui sont alignées avec vos valeurs. Ensemble, nous travaillerons 
+        à identifier vos forces, à clarifier vos objectifs et à mettre en place un plan d’action sur mesure.
+    </p>
+    <p>
+        Le coaching décisionnel et le coaching de vie ne sont pas des solutions magiques, mais des outils puissants pour reprendre 
+        le contrôle sur vos choix et votre vie. 
+    </p>
+</section>
+
+<section id="tarifs">
+    <h2>Tarifs & Modalités</h2>
+    <p>
+        Mes séances de coaching sont disponibles à distance via Zoom ou téléphone. Chaque session est personnalisée pour répondre 
+        à vos besoins spécifiques.
+    </p>
+    <ul>
+        <li><strong>Tarif :</strong> à partir de 65€ par séance</li>
+        <li><strong>Durée :</strong> 60 minutes par séance</li>
+        <li><strong>Modalités :</strong> Séance à distance, flexible selon vos disponibilités</li>
+    </ul>
+</section>
+
+<section id="contact">
+    <h2>Contact</h2>
+    <p>Vous souhaitez en savoir plus ou réserver une séance ? Remplissez le formulaire ci-dessous, et je vous répondrai dans les plus brefs délais.</p>
+    <form action="#" method="post">
+        <label for="name">Nom :</label>
+        <input type="text" id="name" name="name" required>
+        
+        <label for="email">Email :</label>
+        <input type="email" id="email" name="email" required>
+        
+        <label for="message">Message :</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+        
+        <input type="submit" value="Envoyer">
+    </form>
+</section>
+
+<footer>
+    &copy; 2024 Coaching Décisionnel et Coaching de Vie | Tous droits réservés
+</footer>
+
+</body>
+</html>
